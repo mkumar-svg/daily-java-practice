@@ -1,0 +1,10 @@
+# Java
+*.class
+bin/
+target/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
