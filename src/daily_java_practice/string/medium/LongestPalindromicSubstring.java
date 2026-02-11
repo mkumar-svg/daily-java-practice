@@ -1,6 +1,7 @@
 package daily_java_practice.string.medium;
 
 public class LongestPalindromicSubstring {
+	// Expand center → O(n²)
 	public static String longestPalindrome(String s) {
 		if(s == null || s.length() < 1) {
 			return "";
